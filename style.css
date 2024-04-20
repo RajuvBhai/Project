@@ -1,0 +1,197 @@
+/* Style the header with a grey background and some padding */
+.header {
+    overflow: hidden;
+    background-color: #6B3CC9;
+    padding: 20px 10px;
+  }
+.header img{
+  padding-left: 50px;
+}
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+/* body img */
+  .img-1 img {
+    width: 100%;
+    height: 763px;
+    top: -40px;
+  }
+  /* 1st frame */
+.container-1{
+  width: 1064px;
+  height: 414px;
+  top: 857px;
+  left: 188px;
+  gap: 108px;
+}
+.container-1-1 {
+  width: 414px;
+  height: 414px;
+  float: left;
+  display: block;
+}
+.container-1-2 {
+  width: 542px;
+  height: 187px;
+  gap: 20px;
+  float: right;
+  display: block;
+  padding-top: 80px;
+}
+
+.container-2{
+  width: 1064px;
+  height: 414px;
+  display: flex;
+}
+.container-2-1{  
+  width: 414px;
+  float: right;
+  display: block;
+}
+.container-2-2{
+  width: 542px;
+  float: left;
+  display: block;
+}
+/* .container-2{
+  width: 1064px;
+  height: 414px;
+  top: 857px;
+  left: 188px;
+  gap: 108px;
+}
+.container-2-1 {
+  width: 414px;
+  height: 416px;
+  float: left;
+  display: block;
+  /* padding-top: 80px; */
+}
+.container-2-2 {
+  width: 542px;
+  height: 206px;
+  gap: 20px;
+  float: right;
+  display: block;
+} */
+.container-3{
+  width: 846px;
+  height: 392px;
+  top: 1847px;
+  left: 297px;
+  gap: 28px;
+  text-align: center;
+}
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+  h1{
+    color: #6B3CC9;
+    size: 27px;
+    font-weight: 600px;
+    line-height: 33px;
+    letter-spacing: 0.4px;
+  }
+  p{
+    font-weight: 400px;
+    size: 16px;
+    line-height: 19.36px;
+    color: #000000;
+  }
+  button{
+    width: 129px;
+    height: 38px;
+    background-color: #f28d35;
+    color: #FFFFFF;
+    font-weight: 700px;
+    size: 14px;
+    line-height: 14px;
+    letter-spacing: -2%;
+    border: none;
+    border-radius: 4px;
+    gap: 8px;
+    padding: 12px 20px 12px 20px;
+  }
+
+  h6{
+    color: #6B3CC9;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 500px;
+  }
+  .p1{
+    font-size: 18px;
+    color: #6f6c90;
+    line-height: 30px;
+  }
+  .p2{
+    font-size: 22px;
+    color: #000000;
+    font-weight: 500px;
+    line-height: 28px;
+  }
+  footer{
+    background: #6B3CC9;
+    color: #FFFFFF;
+    width: 100%;
+  }
+  .footer-col-1{
+    width: 50%;
+    padding-top: 30px;
+    font-weight: 400px;
+    line-height: 19.2px;
+    size: 16px;
+    color: #FFFFFF;
+  }
+  .footer-col-2{
+    width: 25%;
+    padding-top: 25px;
+  }
+  .container{
+    display: flex;
+    justify-content: space-between;
+}
+ a {
+  text-decoration: none;
+  color: #FFFFFF;
+  line-height: 16.94px;
+  size: 14px;
+  font-weight: 500px;
+}
+ul {
+  list-style-type:none;
+}
